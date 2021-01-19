@@ -1,41 +1,70 @@
----
-layout: login
-title: Login
----
-
-<section class="login">
-  
-  <div class="login__logo">
-    <img src="assets/images/logo.svg" alt="">
-  </div>
-  <p class="login__subtitle">Чтобы войти в <span>Godlike</span><span class="login__red">Cash</span>,  вам необходимо согласиться с нашими Условиями использования
-    и&nbsp;подтверждаете, что вам исполнилось <span class="login__red">16</span>  лет.
-  </p>
-  <form>
-    <div class="login__inner">
-      <input id="login__input-1" class="login__input" type="checkbox">
-      <label for="login__input-1" class="login__label">Я принимаю условия <a href="#">пользовательского соглашения.</a></label>
-    </div>
-    <div class="login__inner">
-      <input id="login__input-2"  class="login__input" type="checkbox">
-      <label class="login__label" for="login__input-2">Я подтверждаю что мне исполнилось <span class="login__red"> 16 </span> лет.</label>
-    </div>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="assets/css/style.min.css">
     
-    <button class="login__btn"> <span>Войти через Steam</span></button>
-  </form>
-  <div class="login__socials">
-    <a href="#" class="login__social">
-      <div class="login__social-image">
-        <img src="assets/images/svg/telegram.svg" alt="telegram">
-      </div>
-      
-      <p>Telegram</p>
-    </a>
-    <a href="#" class="login__social">
-      <div class="login__social-image">
-       <img src="assets/images/svg/vk.svg" alt="Vkontakte">
-      </div>
-      <p>Vkontakte</p>
-    </a>
-  </div>
-</section>
+    <!-- Useful meta tags -->
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow">
+    <meta name="google" content="notranslate">
+    <meta name="format-detection" content="telephone=no">
+    <meta name="description" content="">
+    
+    <title>Login</title>
+</head>
+<body>
+    <div class="wrapper wrapper__login">
+
+        
+        
+        <main class="main">
+            
+            <section class="login">
+              
+              <div class="login__logo">
+                <img src="assets/images/logo.svg" alt="">
+              </div>
+              <p class="login__subtitle">Чтобы войти в <span>Godlike</span><span class="login__red">Cash</span>,  вам необходимо согласиться с нашими Условиями использования
+                и&nbsp;подтверждаете, что вам исполнилось <span class="login__red">16</span>  лет.
+              </p>
+              <form>
+                <div class="login__inner">
+                  <input id="login__input-1" class="login__input" type="checkbox">
+                  <label for="login__input-1" class="login__label">Я принимаю условия <a href="#">пользовательского соглашения.</a></label>
+                </div>
+                <div class="login__inner">
+                  <input id="login__input-2"  class="login__input" type="checkbox">
+                  <label class="login__label" for="login__input-2">Я подтверждаю что мне исполнилось <span class="login__red"> 16 </span> лет.</label>
+                </div>
+                
+                <button class="login__btn"> <span>Войти через Steam</span></button>
+              </form>
+              <div class="login__socials">
+                <a href="#" class="login__social">
+                  <div class="login__social-image">
+                    <img src="assets/images/svg/telegram.svg" alt="telegram">
+                  </div>
+                  
+                  <p>Telegram</p>
+                </a>
+                <a href="#" class="login__social">
+                  <div class="login__social-image">
+                   <img src="assets/images/svg/vk.svg" alt="Vkontakte">
+                  </div>
+                  <p>Vkontakte</p>
+                </a>
+              </div>
+            </section>
+            
+        </main>
+        
+    
+        
+    </div>
+
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
